@@ -4,25 +4,40 @@
     margin: 0;
 }
 
+/* Primary HTML styling elements */
+
 body {
     background-color: #d9dcd6;
 }
 
-.header {
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Header styling elements */
+
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
+
+/* Navigation list elements within Header */
 
 nav {
     padding-top: 15px;
@@ -41,14 +56,7 @@ nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
+/* Background Image elements */
 
 .hero {
     height: 800px;
@@ -59,15 +67,7 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+/* Main content styling elements */
 
 .content {
     width: 75%;
@@ -92,6 +92,20 @@ p {
 .content img {
     max-height: 200px;
 }
+
+/* Float specifications as used in Main content */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Sidebar styling elements */
 
 aside {
     display: inline;
@@ -124,13 +138,15 @@ aside {
     max-width: 150px;
 }
 
-.footer {
+/* Footer styling elements */
+
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
