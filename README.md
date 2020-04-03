@@ -20,4 +20,4 @@ Contact Ryan Skog at ryan.skog@outlook.com for assistance.
 
 # Authors
 
-UC-Davis Full Stack Flex staff, refactor by Ryan Skog
+UC-Davis Full Stack Flex staff, refactor by Ryan Skog.
